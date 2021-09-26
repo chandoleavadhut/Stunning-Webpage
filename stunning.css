@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+}
+#topbar{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:120px;
+}
+.nava1{
+    width:33.33%;
+    text-align: left;
+    margin-left: 50px;
+    padding-top: 20px;
+}
+.nava2{
+    width:33.33%;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 45px;
+    height:100%;
+    opacity: 0.6;
+}
+.nava3{
+    width:33.33%;
+    text-align: right;
+    margin-right: 50px;
+    padding-top: 40px;
+}
+.action-but{
+    background-color: #FFD8DB;
+    color:#A389CC;
+    padding:10px;
+    border:none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.stunning-logo{
+    height: 60px;
+    width: 150px;
+}
+#main{
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+}
+.sub-main1{
+    width: 35%;
+    height: 700px;
+    margin:10px;
+}
+.sub-main2{
+    width: 60%;
+    height: 600px;
+    margin-left:20px;
+}
+.landing-image{
+    margin:50px;
+    width:98%;
+    height:90%;
+}
+.stun-work{
+    padding-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 28px;
+    font-style: bold;
+    font-family: Roboto Slab;
+}
+.stun-para{
+    margin: 25px;
+    margin-left: 100px;
+    opacity: 0.8;
+}
+.stun-but-row{
+    margin-top:20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: relative;
+}
+.stun-but{
+    margin-left: 100px;
+    margin-right: 50px;
+    background-color: #5243C0;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+.stun-but-logo1{
+    margin: 10px;
+    height: 15px;
+    position: absolute;
+    top: -15px;
+    left: 250px;
+}
+.stun-but-logo2{
+    margin: 10px;
+    height: 15px;
+    position: absolute;
+    top: -15px;
+    left: 320px;
+}
+#main-checkb{
+    margin-left: 60px;
+    margin-top:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-style: bold;
+}
+#checkb{
+    padding: 10px 8px;
+    width: 400px;
+    margin:5px;
+    margin-left:40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    cursor: pointer;
+    background-color:#FAF9F6;
+    box-shadow: 2px 2px 4px #fcfafa;
+    border-radius: 10px;
+}
+#checkb:hover{
+    background-color: white;
+}
+.lab-wrap{
+    width:33.33%;
+    margin-left:15px ;
+}
+.lab-logo{
+    height: 5px;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 1.5px;
+    right:200px;
+    height:8px;
+    width: 8px;
+}
+.lab-para{
+    position: absolute;
+    top: 10px;
+    right:90px;
+    opacity: 0.5;
+}
+.user-logo{
+    height:30px;
+    width:30px;
+    margin-top: 2.5px;
+}
+.col1{
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#FED7DA;
+    position:absolute;
+    top: 15px;
+    right:20px;
+    opacity: 0.8;
+}
+.col2{
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#FD6534;
+    position:absolute;
+    top: 15px;
+    right:20px;
+    opacity: 0.8;
+}
+.col3{
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#9ED095;
+    position:absolute;
+    top: 15px;
+    right:20px;
+    opacity: 0.8;
+}
+.col4{
+    width: 20px;
+    height: 10px;
+    border-radius: 5px;
+    background-color:#FFE4A0;
+    position:absolute;
+    top: 15px;
+    right:20px;
+    opacity: 0.8;
+}
+.posi{
+    display: flex;
+    flex-direction: row;
+}
+.stun-work-head{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.dot{
+    display: flex;
+    flex-direction: row;
+    width:8px;
+    height:8px;
+    margin-top:182px;
+    margin-left:2px;
+    background-color:#5243C0;
+}
+.under{
+    height: 25px;
+    cursor: pointer;
+}
+.under:hover{
+    padding-bottom: 0px;
+    border-bottom-style: solid;
+    border-color:#5243C0;;
+    border-bottom-width: 5.1px;
+    width: fit-content;
+}
+.log-h{
+    padding: 5px;
+}
+.log-h1{
+    color:rgba(167, 161, 161, 0.541);
+}
+.lab-wrap :hover{
+    color:#5243C0;
+}
